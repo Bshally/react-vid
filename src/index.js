@@ -12,7 +12,7 @@ import './css/style.css';
 
 const Root = () => {
     return(
-        <BrowserRouter>
+        <BrowserRouter >
             <div>
                 <Match exactly pattern="/" component={StorePicker} />
                 <Match exactly pattern="/store/:storeId" component={App} />
